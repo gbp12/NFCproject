@@ -43,7 +43,7 @@ function App(): React.JSX.Element {
         {NFCtag && <Text>NFC ID: {NFCtag.id}</Text>}
       </TouchableOpacity>
       <TouchableOpacity onPress={showToast}>
-        <Text>Prueba</Text>
+        <Text>Abrir app del banco</Text>
       </TouchableOpacity>
     </View>
   );
